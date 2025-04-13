@@ -1,5 +1,4 @@
-```md
-# 🧠 Daily Planner AI
+🧠 Daily Planner AI
 
 An AI-powered day planning app that turns your to-do list into an intelligent, emoji-rich schedule — built with **React**, **OpenAI**, and **Tailwind CSS**.
 
@@ -8,7 +7,7 @@ An AI-powered day planning app that turns your to-do list into an intelligent, e
 
 ---
 
-## ✨ Features
+✨ Features
 
 ✅ Auto-prioritized day planner  
 ✅ Intelligent time-slot allocation (8AM–6PM)  
@@ -18,7 +17,7 @@ An AI-powered day planning app that turns your to-do list into an intelligent, e
 
 ---
 
-## 💻 Tech Stack
+💻 Tech Stack
 
 | Area            | Tools / Frameworks                          |
 |-----------------|---------------------------------------------|
@@ -32,7 +31,7 @@ An AI-powered day planning app that turns your to-do list into an intelligent, e
 
 ---
 
-## 🤖 AI Tools Used
+🤖 AI Tools Used
 
 - **ChatGPT (GPT-4 + GPT-3.5)** — For prompt design, core logic & schedule generation  
 - **GitHub Copilot** — Autocompletion for layout, Tailwind classes & API logic  
@@ -41,7 +40,7 @@ An AI-powered day planning app that turns your to-do list into an intelligent, e
 
 ---
 
-## ⚙️ Where AI Needed Help (Human-in-the-loop)
+⚙️ Where AI Needed Help (Human-in-the-loop)
 
 🔒 **Secret Scanning**: AI didn’t warn about committed `.env` — fixed manually using `git filter-branch`  
 🎯 **Quote Relevance**: Default quotes felt generic — tuned prompt to align quote with task themes  
@@ -50,7 +49,7 @@ An AI-powered day planning app that turns your to-do list into an intelligent, e
 
 ---
 
-## 🎨 UI Highlights
+🎨 UI Highlights
 
 - Smooth Framer Motion animations on task load  
 - Emoji-enhanced cards for quick visual context  
@@ -62,12 +61,10 @@ An AI-powered day planning app that turns your to-do list into an intelligent, e
 
 ## 🧪 Sample Input
 
-```txt
 Record YouTube video  
 Post on LinkedIn  
 Read 10 pages of book  
 Meal prep for the week
-```
 
 ### 🧠 Output Example
 
@@ -99,8 +96,8 @@ Meal prep for the week
 
 **Vivek Kothuru**  
 📍 Based in Seattle, WA — open to remote or hybrid roles  
-🔗 [LinkedIn](https://www.linkedin.com/in/vivekkothuru)  
-📧 vivekkothuru@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/vivek-k-759577203/)
+📧 vivek.kothuru@gmail.com
 
 ---
 
