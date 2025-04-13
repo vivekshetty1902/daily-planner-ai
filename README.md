@@ -1,105 +1,108 @@
 ```md
 # 🧠 Daily Planner AI
 
-**AI-powered day planning app that turns your tasks into an intelligent, emoji-rich schedule — built with React, OpenAI GPT, and Tailwind CSS.**
+An AI-powered day planning app that turns your to-do list into an intelligent, emoji-rich schedule — built with **React**, **OpenAI**, and **Tailwind CSS**.
 
 🚀 [Live Demo](https://daily-planner-ai.vercel.app/)  
-📂 [View Code on GitHub](https://github.com/vivekshetty1902/daily-planner-ai)
+📂 [GitHub Repo](https://github.com/vivekshetty1902/daily-planner-ai)
 
 ---
 
-## ✨ What It Does
+## ✨ Features
 
-Give it a list of tasks — and Daily Planner AI will:
-
-✅ Prioritize them intelligently  
-✅ Assign time slots (8AM–6PM)  
-✅ Add meaningful emojis based on task type  
-✅ Provide reasoning for the ordering  
-✅ End with a motivational quote tailored to your day
+✅ Auto-prioritized day planner  
+✅ Intelligent time-slot allocation (8AM–6PM)  
+✅ Emojis based on task category (🏃, 📚, 💼, etc.)  
+✅ Thoughtful scheduling rationale from AI  
+✅ Motivational quote based on your tasks  
 
 ---
 
-## 🧠 Built With AI First
+## 💻 Tech Stack
 
-This project makes extensive use of AI at every stage:
-
-- 🤖 **ChatGPT (GPT-3.5)** – for schedule generation, reasoning, quote theming  
-- 🧠 **Prompt Engineering** – carefully tuned system prompt for consistent JSON output  
-- 💡 **GitHub Copilot** – assisted with UI building, form handling, and error logic  
-- 🔍 **Replit AI / Cursor AI** – used for debugging and code assistance  
-- 🛠️ **GPT-Aided Testing** – generated test inputs and fallback conditions
-
----
-
-## 🛠 Tech Stack & Tools
-
-| Category        | Tech/Tool Used                             |
+| Area            | Tools / Frameworks                          |
 |-----------------|---------------------------------------------|
-| Frontend        | React, Vite, JSX, Tailwind CSS              |
+| Frontend        | React, Vite, Tailwind CSS                   |
+| Animations      | Framer Motion, React Spinners               |
 | AI Integration  | OpenAI API (GPT-3.5-Turbo)                  |
 | State Handling  | React Hooks (`useState`)                    |
-| Animations      | Framer Motion, React Spinners               |
+| Dev Tools       | VS Code, GitHub Copilot, Replit AI, Cursor AI |
 | Deployment      | Vercel                                      |
-| Version Control | Git, GitHub                                 |
-| Dev Tools       | VS Code, GitHub Copilot, ChatGPT            |
+| Version Control | Git & GitHub                                |
+
+---
+
+## 🤖 AI Tools Used
+
+- **ChatGPT (GPT-4 + GPT-3.5)** — For prompt design, core logic & schedule generation  
+- **GitHub Copilot** — Autocompletion for layout, Tailwind classes & API logic  
+- **Cursor AI / Replit AI** — Real-time coding/debugging suggestions  
+- **AI Testing** — GPT-generated test prompts & fallback scenarios  
+
+---
+
+## ⚙️ Where AI Needed Help (Human-in-the-loop)
+
+🔒 **Secret Scanning**: AI didn’t warn about committed `.env` — fixed manually using `git filter-branch`  
+🎯 **Quote Relevance**: Default quotes felt generic — tuned prompt to align quote with task themes  
+💥 **LLM Failures**: Wrote JSON parsing recovery for hallucinations / malformed responses  
+🎨 **UX Tweaks**: Emoji spacing, delay-tuned animation, and loader refinement done by hand  
 
 ---
 
 ## 🎨 UI Highlights
 
-- Responsive, clean design with Tailwind  
-- Smooth animations (Framer Motion) on task load  
-- Emoji-enhanced task cards for quick scanning  
-- Live loading spinner while LLM fetches data  
-- Custom error + retry logic for resilience
+- Smooth Framer Motion animations on task load  
+- Emoji-enhanced cards for quick visual context  
+- Responsive layout with polished spacing  
+- Spinner shown while LLM fetches plan  
+- Error fallback & “Regenerate Plan” option
 
 ---
 
-## 🔐 AI + Engineering Edge
+## 🧪 Sample Input
 
-🧠 GPT was powerful — but I had to **step in** when:
-
-- OpenAI API returned invalid JSON → I wrote robust parsing + retry logic  
-- Secrets leaked in `.env.local` → I used `git filter-branch` to scrub Git history  
-- GPT quotes were too generic → I fine-tuned prompts to match quote tone to task themes  
-- Component animations needed UX tuning → manually crafted Framer Motion transitions
-
----
-
-## 🧪 Example Input
-
-```
+```txt
 Record YouTube video  
 Post on LinkedIn  
 Read 10 pages of book  
-Meal prep for the week  
+Meal prep for the week
 ```
 
-### Output:
+### 🧠 Output Example
 
-📅 **AI-Powered Plan**  
-🕗 8AM: Meal prep for the week 🍳  
-🕤 9:30AM: Read 10 pages of book 📚  
-🕚 11AM: Record YouTube video 🎥  
-🕐 1PM: Post on LinkedIn 💼
+| Time    | Task                        | Emoji |
+|---------|-----------------------------|-------|
+| 8AM     | Meal prep for the week      | 🍳    |
+| 9:30AM  | Read 10 pages of book       | 📚    |
+| 11AM    | Record YouTube video        | 🎥    |
+| 1PM     | Post on LinkedIn            | 💼    |
 
-*“Success is the sum of small efforts repeated day in and day out.”*
+**Reasoning**: Prioritized healthy routine, followed by mental & creative tasks.  
+**Quote**: _“Success is the sum of small efforts repeated day in and day out.”_
 
 ---
 
-## 💬 Let's Connect
+## 📦 Project Structure
 
-If you're a recruiter or fellow engineer interested in creative AI + product work — feel free to connect!
+```
+📁 src/
+  ├── App.jsx           # Main UI logic + animations
+  ├── openai.js         # Prompting & API interaction
+📄 .env.local            # API key (not pushed)
+📄 index.html / tailwind.config.js / postcss.config.js
+```
 
+---
+
+## 📬 Contact
+
+**Vivek Kothuru**  
+📍 Based in Seattle, WA — open to remote or hybrid roles  
 🔗 [LinkedIn](https://www.linkedin.com/in/vivekkothuru)  
-✉️ vivekkothuru@gmail.com
+📧 vivekkothuru@gmail.com
 
 ---
 
-> ⚡ Built in ~6 hours using ChatGPT, Copilot, and caffeine-fueled curiosity.
+> ⚡ Built in ~6 hours using AI-first development: GPT, Copilot, Cursor, and caffeine-fueled curiosity ☕
 ```
-
----
-
-Let me know if you want to add badges, contributor info, or a cool GIF preview of the app!
