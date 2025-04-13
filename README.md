@@ -1,7 +1,3 @@
-Here’s a standout `README.md` for your **daily-planner-ai** project — crafted to impress recruiters at first glance with clarity, visual appeal, and a strong emphasis on your **skills** and **AI integration**:
-
----
-
 ```md
 # 🧠 Daily Planner AI
 
